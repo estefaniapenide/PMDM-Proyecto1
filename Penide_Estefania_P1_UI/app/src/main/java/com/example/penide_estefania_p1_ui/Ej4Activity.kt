@@ -7,33 +7,31 @@ import android.content.Intent
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import com.example.penide_estefania_p1_ui.databinding.ActivityEj3Binding
+import com.example.penide_estefania_p1_ui.databinding.ActivityEj4Binding
 
 
 class Ej4Activity : AppCompatActivity() {
+    private lateinit var binding: ActivityEj4Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_ej4)
+        binding = ActivityEj4Binding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-
-        val textoSi:TextView=findViewById(R.id.textView14)
-        val textoNo:TextView=findViewById(R.id.textView15)
-        val textoAveces:TextView=findViewById(R.id.textView16)
-
-        textoSi.setOnClickListener{
+        binding.textView14.setOnClickListener{
             Toast.makeText(this@Ej4Activity,"SÍ", Toast.LENGTH_SHORT).show()
         }
 
-        textoNo.setOnClickListener{
+        binding.textView15.setOnClickListener{
             Toast.makeText(this@Ej4Activity,"NO", Toast.LENGTH_SHORT).show()
         }
 
-        textoAveces.setOnClickListener{
+        binding.textView16.setOnClickListener{
             Toast.makeText(this@Ej4Activity,"A VECES", Toast.LENGTH_SHORT).show()
         }
 
-        val botonVuelta: Button = findViewById(R.id.button12)
 
-        botonVuelta.setOnClickListener {
+        binding.button12.setOnClickListener {
             val intent = Intent(
                 this,
                 MainActivity::class.java

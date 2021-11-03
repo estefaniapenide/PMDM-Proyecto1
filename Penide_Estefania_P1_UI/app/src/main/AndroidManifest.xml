@@ -10,37 +10,41 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Penide_Estefania_P1_UI">
         <activity
+            android:name=".Ej9Activity"
+            android:exported="true"
+            android:label="Comentario_ConstrainLayout" />
+        <activity
             android:name=".Ej8Activity"
             android:exported="false"
-            android:label="PosBotones_ConstrainLayout"/>
+            android:label="PosBotones_ConstrainLayout" />
         <activity
             android:name=".Ej7Activity"
             android:exported="false"
-            android:label="PosBotones_RelativeLayout"/>
+            android:label="PosBotones_RelativeLayout" />
         <activity
             android:name=".Ej6Activity"
             android:exported="false"
-            android:label="PosBotones_TableLayout"/>
+            android:label="PosBotones_TableLayout" />
         <activity
             android:name=".Ej5Activity"
             android:exported="false"
-            android:label="PosBotones_LinearLayout"/>
+            android:label="PosBotones_LinearLayout" />
         <activity
             android:name=".Ej4Activity"
             android:exported="false"
-            android:label="Navegador_ConstrainLayout"/>
+            android:label="Navegador_ConstrainLayout" />
         <activity
             android:name=".Ej3Activity"
             android:exported="false"
-            android:label="Navegador_RelativeLayout"/>
+            android:label="Navegador_RelativeLayout" />
         <activity
             android:name=".Ej2Activity"
             android:exported="false"
-            android:label="Navegador_TableLayout"/>
+            android:label="Navegador_TableLayout" />
         <activity
             android:name=".Ej1Activity"
             android:exported="false"
-            android:label="Navegador_LinearLayout"/>
+            android:label="Navegador_LinearLayout" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
