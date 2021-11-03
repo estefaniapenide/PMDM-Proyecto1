@@ -16,7 +16,7 @@ class Ej1Activity : AppCompatActivity() {
     setContentView(binding.root)
 
         binding.button9.setOnClickListener{
-            val intent=Intent(this,Ej1Activity::class.java)
+            val intent=Intent(this,MainActivity::class.java)
             startActivity(intent)
         }
 
