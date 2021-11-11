@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Penide_Estefania_P1_UI">
         <activity
+            android:name=".Ej10Activity"
+            android:exported="true"
+            android:label="Login_Linear"/>
+        <activity
             android:name=".Ej9Activity"
             android:exported="true"
             android:label="Comentario_ConstrainLayout" />

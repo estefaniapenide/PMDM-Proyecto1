@@ -77,6 +77,22 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.button16.setOnClickListener{
+            val intent = Intent(
+                this,
+                Ej9Activity::class.java
+            )
+            startActivity(intent)
+        }
+
+        binding.button21.setOnClickListener{
+            val intent = Intent(
+                this,
+                Ej10Activity::class.java
+            )
+            startActivity(intent)
+        }
+
 
     }
 }
