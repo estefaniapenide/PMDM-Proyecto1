@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Penide_Estefania_P1_UI</string>
+    <string name="titulo">Connect</string>
+    <string name="usuario">User</string>
+    <string name="password">Password</string>
+    <string name="iniciar">LOG IN</string>
+    <string name="olvidar">Did you forget your password?</string>
+</resources>

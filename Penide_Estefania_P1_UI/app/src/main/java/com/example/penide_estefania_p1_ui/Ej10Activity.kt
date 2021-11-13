@@ -25,9 +25,9 @@ class Ej10Activity : AppCompatActivity() {
 
         binding.button22.setOnClickListener{
             if(binding.editTextTextPersonName.text.isEmpty()){
-                Toast.makeText(this,"Falta el nombre",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Debe introducir un nombre de usuario",Toast.LENGTH_SHORT).show()
             }else if(binding.editTextTextPassword.text.isEmpty()){
-                Toast.makeText(this,"Falta la contraseña",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Debe introducir una contraseña",Toast.LENGTH_SHORT).show()
             }else if(binding.editTextTextPassword.text.length<8){
                 Toast.makeText(this,"La contraseña debe tener al menos 8 caracteres",Toast.LENGTH_SHORT).show()
             }

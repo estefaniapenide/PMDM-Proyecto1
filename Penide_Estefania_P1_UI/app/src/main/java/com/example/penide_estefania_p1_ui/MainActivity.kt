@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.button.setOnClickListener{
+        binding.b1.setOnClickListener{
             val intent = Intent(
                 this,
                 Ej1Activity::class.java
@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.button2.setOnClickListener{
+        binding.b2.setOnClickListener{
             val intent = Intent(
                 this,
                 Ej2Activity::class.java
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.button3.setOnClickListener{
+        binding.b3.setOnClickListener{
             val intent = Intent(
                 this,
                 Ej3Activity::class.java
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.button4.setOnClickListener{
+        binding.b4.setOnClickListener{
             val intent = Intent(
                 this,
                 Ej4Activity::class.java
@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.button5.setOnClickListener{
+        binding.b5.setOnClickListener{
             val intent = Intent(
                 this,
                 Ej5Activity::class.java
@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.button6.setOnClickListener{
+        binding.b6.setOnClickListener{
             val intent = Intent(
                 this,
                 Ej6Activity::class.java
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.button7.setOnClickListener{
+        binding.b7.setOnClickListener{
             val intent = Intent(
                 this,
                 Ej7Activity::class.java
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.button8.setOnClickListener{
+        binding.b8.setOnClickListener{
             val intent = Intent(
                 this,
                 Ej8Activity::class.java
@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.button16.setOnClickListener{
+        binding.b9.setOnClickListener{
             val intent = Intent(
                 this,
                 Ej9Activity::class.java
@@ -85,12 +85,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.button21.setOnClickListener{
+        binding.b10.setOnClickListener{
             val intent = Intent(
                 this,
                 Ej10Activity::class.java
             )
             startActivity(intent)
+        }
+
+        binding.b11.setOnClickListener{
+            //val intent = Intent(this, Ej11Activity::class.java)
+            startActivity(Intent(this, Ej11Activity::class.java))
         }
 
 
