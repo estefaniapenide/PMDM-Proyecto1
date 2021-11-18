@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Penide_Estefania_P1_UI">
         <activity
+            android:name=".Ej11_2Activity"
+            android:exported="true" />
+        <activity
             android:name=".Ej11Activity"
             android:exported="false"
-            android:label="PantallaLibro"/>
+            android:label="PantallaLibro" />
         <activity
             android:name=".Ej10Activity"
             android:exported="true"

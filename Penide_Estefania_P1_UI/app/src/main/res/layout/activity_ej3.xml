@@ -22,9 +22,9 @@
     <TextView
         android:id="@+id/textView10"
         style="@style/TextoGris"
-        android:text="SÍ"
+        android:layout_below="@+id/textView9"
         android:layout_marginTop="10dp"
-        android:layout_below="@+id/textView9"/>
+        android:text="SÍ" />
 
     <TextView
         android:id="@+id/textView11"
