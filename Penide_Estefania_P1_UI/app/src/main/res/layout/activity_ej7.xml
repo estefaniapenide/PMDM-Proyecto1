@@ -12,31 +12,31 @@
 
     <TextView
         android:id="@+id/textView27"
-        style="@style/TextoGris"
+        style="@style/TextoGris2"
         android:text="SUP.IZQ." />
 
     <TextView
         android:id="@+id/textView28"
-        style="@style/TextoGris"
+        style="@style/TextoGris2"
         android:text="SUP.DCHO."
         android:layout_alignParentRight="true"/>
 
     <TextView
         android:id="@+id/textView29"
-        style="@style/TextoGris"
+        style="@style/TextoGris2"
         android:layout_width="match_parent"
         android:text="CENTRAL"
         android:layout_centerVertical="true"/>
 
     <TextView
         android:id="@+id/textView30"
-        style="@style/TextoGris"
+        style="@style/TextoGris2"
         android:text="INF.IZQ."
         android:layout_alignParentBottom="true"/>
 
     <TextView
         android:id="@+id/textView31"
-        style="@style/TextoGris"
+        style="@style/TextoGris2"
         android:text="INF.DCHO."
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"/>

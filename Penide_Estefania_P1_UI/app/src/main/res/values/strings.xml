@@ -4,5 +4,9 @@
     <string name="password">Contraseña</string>
     <string name="iniciar">INICIAR SESION</string>
     <string name="olvidar">¿Olvidaste tu contraseña?</string>
-    <string name="titulo">Conectar</string>
+    <string name="conectar">Conectar</string>
+    <string name="titulo">Título</string>
+    <string name="autor">Autor</string>
+    <string name="tecTitulo">Teclea título</string>
+    <string name="tecAutor">Teclea autor</string>
 </resources>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Penide_Estefania_P1_UI</string>
-    <string name="titulo">Connect</string>
+    <string name="conectar">Connect</string>
     <string name="usuario">User</string>
     <string name="password">Password</string>
     <string name="iniciar">LOG IN</string>
     <string name="olvidar">Did you forget your password?</string>
+    <string name="titulo">Title</string>
+    <string name="autor">Author</string>
+    <string name="tecTitulo">Type title</string>
+    <string name="tecAutor">Type author</string>
 </resources>

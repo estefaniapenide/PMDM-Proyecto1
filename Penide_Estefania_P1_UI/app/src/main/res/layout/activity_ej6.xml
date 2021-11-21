@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Ej6Activity">
-
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="2dp"
-        android:background="#1110">
+    android:padding="2dp"
+    android:background="#1110">
 
         <TableRow
             android:layout_width="match_parent"
@@ -20,34 +13,39 @@
 
             <TextView
                 android:id="@+id/textView17"
-                style="@style/TextoGris"
-                android:text="SUP.IZQ." />
+                style="@style/TextoGris2"
+                android:text="SUP.IZQ."
+                android:layout_weight="1"/>
 
             <Space
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_weight="1"  />
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"/>
 
             <TextView
                 android:id="@+id/textView23"
-                style="@style/TextoGris"
-                android:text="SUP.DCHO." />
+                style="@style/TextoGris2"
+                android:text="SUP.DCHO."
+                android:layout_gravity="end"
+                android:layout_weight="1"/>
 
         </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="150dp"
-            >
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="150dp"
+        >
 
-            <Button
-                android:id="@+id/button14"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Volver al pricipal" />
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver al pricipal"
+            android:layout_span="4"
+            />
 
-        </TableRow>
+    </TableRow>
 
 
         <TableRow
@@ -58,9 +56,10 @@
 
             <TextView
                 android:id="@+id/textView24"
-                style="@style/TextoGris"
+                style="@style/TextoGris2"
                 android:layout_width="match_parent"
                 android:text="CENTRAL"
+                android:layout_weight="4"
                 />
 
         </TableRow>
@@ -71,18 +70,22 @@
             >
             <TextView
                 android:id="@+id/textView25"
-                style="@style/TextoGris"
-                android:text="INF.IZQ." />
+                style="@style/TextoGris2"
+                android:text="INF.IZQ."
+                android:layout_weight="1"
+                />
 
             <Space
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_weight="1"  />
+                android:layout_weight="2"  />
 
             <TextView
                 android:id="@+id/textView26"
-                style="@style/TextoGris"
-                android:text="INF.DCHO." />
+                style="@style/TextoGris2"
+                android:text="INF.DCHO."
+                android:layout_weight="1"
+                />
 
         </TableRow>
 
@@ -90,8 +93,3 @@
 
 
     </TableLayout>
-
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>

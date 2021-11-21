@@ -22,9 +22,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ej2Activity"
-        app:layout_constraintBottom_toTopOf="@+id/b3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/b3"
         app:layout_constraintTop_toBottomOf="@+id/b1" />
 
     <Button
@@ -32,9 +32,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ej3Activity"
-        app:layout_constraintBottom_toTopOf="@+id/b4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/b4"
         app:layout_constraintTop_toBottomOf="@+id/b2" />
 
     <Button
@@ -42,9 +42,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ej4Activity"
-        app:layout_constraintBottom_toTopOf="@+id/b5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/b5"
         app:layout_constraintTop_toBottomOf="@+id/b3" />
 
     <Button
@@ -52,9 +52,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ej5Activity"
-        app:layout_constraintBottom_toTopOf="@+id/b6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/b6"
         app:layout_constraintTop_toBottomOf="@+id/b4" />
 
     <Button
@@ -62,9 +62,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ej6Activity"
-        app:layout_constraintBottom_toTopOf="@+id/b7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/b7"
         app:layout_constraintTop_toBottomOf="@+id/b5" />
 
     <Button
@@ -72,9 +72,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ej7Activity"
-        app:layout_constraintBottom_toTopOf="@+id/b8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/b8"
         app:layout_constraintTop_toBottomOf="@+id/b6" />
 
     <Button
@@ -82,9 +82,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ej8Activity"
-        app:layout_constraintBottom_toTopOf="@+id/b9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/b9"
         app:layout_constraintTop_toBottomOf="@+id/b7" />
 
     <Button
@@ -92,29 +92,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ej9Activity"
-        app:layout_constraintBottom_toTopOf="@+id/b10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/b9_2"
         app:layout_constraintTop_toBottomOf="@+id/b8" />
+
+    <Button
+        android:id="@+id/b9_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EJ9ACTIVITY_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/b10"
+        app:layout_constraintTop_toBottomOf="@+id/b9" />
 
     <Button
         android:id="@+id/b10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="EJ10ACTIVITY"
-        app:layout_constraintBottom_toTopOf="@+id/b11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b9" />
+        app:layout_constraintBottom_toTopOf="@+id/b11"
+        app:layout_constraintTop_toBottomOf="@+id/b9_2" />
 
     <Button
         android:id="@+id/b11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="EJ11ACTIVITY"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/b10" />
 
 
