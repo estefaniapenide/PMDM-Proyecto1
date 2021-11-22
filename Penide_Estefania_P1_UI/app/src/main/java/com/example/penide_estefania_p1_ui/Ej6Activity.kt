@@ -15,12 +15,5 @@ class Ej6Activity : AppCompatActivity() {
         binding = ActivityEj6Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.button14.setOnClickListener {
-            val intent = Intent(
-                this,
-                MainActivity::class.java
-            )
-            startActivity(intent)
-        }
     }
 }

@@ -98,6 +98,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, Ej11Activity::class.java))
         }
 
+        binding.b112.setOnClickListener{startActivity(Intent(this,Ej11Activity_2::class.java))}
 
+        binding.b12.setOnClickListener{startActivity(Intent(this,Ej12Activity::class.java))}
     }
 }

@@ -13,7 +13,7 @@
         android:id="@+id/bInicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Volver al inicio"
+        android:text="@string/volverInicio"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -106,7 +106,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="150dp"
             android:layout_marginTop="35dp"
-            android:text="Tema:"
+            android:text="@string/genero"
             android:textSize="20sp"
             tools:layout_editor_absoluteX="100dp"
             tools:layout_editor_absoluteY="295dp" />
@@ -123,13 +123,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
-                android:text="Técnico" />
+                android:text="@string/ensayo" />
 
             <RadioButton
                 android:id="@+id/rbLectura"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lectura" />
+                android:text="@string/ficcion" />
 
         </RadioGroup>
 
@@ -150,7 +150,7 @@
             android:id="@+id/textView40"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Traducido a:"
+            android:text="@string/traducido"
             android:textSize="20sp" />
 
         <CheckBox
@@ -159,7 +159,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="20dp"
-            android:text="Inglés" />
+            android:text="@string/ingles" />
 
         <CheckBox
             android:id="@+id/cbFrances"
@@ -168,14 +168,14 @@
             android:layout_marginLeft="200dp"
             android:layout_marginTop="20dp"
             android:paddingEnd="100dp"
-            android:text="Francés" />
+            android:text="@string/frances" />
 
     </FrameLayout>
 
     <Button
         android:id="@+id/button"
         style="@style/BOTONES_GRISES"
-        android:text="ACEPTAR"
+        android:text="@string/aceptar"
         app:layout_constraintBottom_toTopOf="@+id/bInicio"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

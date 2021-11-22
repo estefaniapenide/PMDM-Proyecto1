@@ -10,4 +10,12 @@
     <string name="autor">Autor</string>
     <string name="tecTitulo">Teclea título</string>
     <string name="tecAutor">Teclea autor</string>
+    <string name="genero">Género:</string>
+    <string name="ensayo">Ensayo</string>
+    <string name="ficcion">Ficción</string>
+    <string name="traducido">Traducido a:</string>
+    <string name="ingles">Inglés</string>
+    <string name="frances">Francés</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="volverInicio">Volver al inicio</string>
 </resources>

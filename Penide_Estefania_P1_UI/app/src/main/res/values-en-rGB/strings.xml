@@ -10,4 +10,12 @@
     <string name="autor">Author</string>
     <string name="tecTitulo">Type title</string>
     <string name="tecAutor">Type author</string>
+    <string name="genero">Genre:</string>
+    <string name="ensayo">Essay</string>
+    <string name="ficcion">Fiction</string>
+    <string name="traducido">Tranlated to:</string>
+    <string name="ingles">English</string>
+    <string name="frances">French</string>
+    <string name="aceptar">Accept</string>
+    <string name="volverInicio">Return home</string>
 </resources>
