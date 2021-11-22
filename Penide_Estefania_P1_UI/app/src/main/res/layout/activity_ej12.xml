@@ -37,6 +37,16 @@
         android:text="Hecho"
         android:layout_margin="5dp"/>
 
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:visibility="gone"
+        android:text="" />
+
     <ImageView
         android:id="@+id/imEstrella"
         android:layout_width="match_parent"
@@ -53,9 +63,9 @@
             android:id="@+id/tvBio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="20sp"
             android:text="@string/bio" />
 
     </ScrollView>
-
 
 </LinearLayout>
